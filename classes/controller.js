@@ -33,4 +33,5 @@ exports.getAllClasses = (req, res, next) => {
     .then(classes => res.status(200).json(classes))
     .catch(error => res.status(400).json(error));
     
+    
 }
